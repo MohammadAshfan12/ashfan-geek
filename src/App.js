@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ToggleSwitch from "./components/ToggleSwitch";
 import { useDarkMode } from "./components/contant/useDarkMode";
 import {
