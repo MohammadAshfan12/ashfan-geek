@@ -1,0 +1,24 @@
+.layout{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 20px 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .layout{
+        align-items: center;
+        padding: 20px;
+        .imageWrapper{
+            width: 100px;
+            margin-top: -70px;
+            margin-left: 0;
+            img{
+                width: 95%;
+                height: 70%;
+                border-radius: 50%;
+            }
+        }
+    }
+}

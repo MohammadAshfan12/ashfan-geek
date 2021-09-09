@@ -1,0 +1,11 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    .programmingLanguages{
+        margin-top: 10px;
+    }
+   
+    h2{
+        font-size: 22px;
+    }
+}

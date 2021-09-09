@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  background-image: url(./Images/backgroundImage.jpg);
+  background-position: center;
+}
+
+.portfolio {
+  max-width: 1000px;
+  width: 100%;
+  min-height: 520px;
+  display: flex;
+  // background-color: #fff;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 6px;
+  color: rgb(34, 31, 31);
+  transition: all 0.8s ease;
+  opacity: 0.9;
+  font-family: system-ui;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio{
+    margin-top: 64px;
+    width: 90%;
+    height: auto;
+    // height: calc(100vh - 50px);
+    flex-direction: column-reverse;
+  }
+}
+
